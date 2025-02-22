@@ -67,7 +67,7 @@ class Portfolio {
             String symbol = entry.getKey();
             int shares = entry.getValue();
             double stockPrice = market.get(symbol).getPrice();
-            System.out.println(symbol + ": " + shares + " shares @ $" + stockPrice);
+            System.out.println(symbol + ": " + shares + " shares @ Rs" + stockPrice);
         }
         System.out.println("Balance: Rs" + balance);
     }
